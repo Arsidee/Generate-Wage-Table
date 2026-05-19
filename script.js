@@ -6,7 +6,7 @@ document.getElementById('generate-btn').addEventListener('click', function() {
   var tbody = document.getElementById('table-body');
   tbody.innerHTML = '';
 
-  for (var rate = 1; rate <= 12; rate++) {
+  for (var rate = 10; rate <= 100; rate += 5) {
     var day        = rate * 8;
     var week       = day * 5;
     var twoWeeks   = day * 10;
